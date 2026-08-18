@@ -1,0 +1,81 @@
+/* global css */
+
+body{
+     font-family: "Open Sans", sans-serif;
+}
+
+.trust2{
+    width: 70px;
+    height: 70px;
+}
+
+footer{
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.footer-inner{
+    display: flex;
+}
+
+.col-1, .col-4{
+    width: 30%;
+}
+
+.col-2, .col-3{
+    width: 20%;
+}
+
+.col-1{
+    padding-right: 55px;
+}
+
+.col-1 h3{
+     font-size: 22px;
+     margin: 0;
+}
+
+.col-1 p{
+    margin-top: 0px;
+    text-align: justify;
+}
+
+.col-2 h5{
+    font-size: 18px;
+}
+.col-2 ul{
+    margin: -15px 0 0;
+    padding: 0;
+}
+
+.col-3 h5{
+    font-size: 18px;
+}
+.col-3 ul{
+    margin: -15px 0 0;
+    padding: 0;
+}
+
+
+.col-2 ul li, .col-3 ul li{
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.col-4 h5{
+    font-size: 18px;
+}
+.row-1{
+    display: flex;
+    gap: 5px;
+}
+
+.row-2{
+    display: flex;
+    gap: 5px;
+}
